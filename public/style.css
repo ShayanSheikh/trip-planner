@@ -12,3 +12,42 @@ body {
   height: 100vh;
   width: 100vw;
 }
+
+header {
+  display: flex;
+  justify-content: flex-end;
+  background-color: rgb(129, 129, 224);
+}
+
+.wrap {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-self: flex-end;
+}
+
+nav {
+  display: flex;
+}
+
+.nav-item {
+  margin: 0 1.5em 0 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+#selectors {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  background-color: darkgrey;
+  left: 80vw;
+  width: 15em;
+}
+
+#selectors .dropdown {
+  padding: 1em;
+}
